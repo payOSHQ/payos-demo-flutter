@@ -26,4 +26,4 @@ APIs are implemented in the `controllers/order-controller.js` file. Webhook is i
 2. Create a tunnel: `ngrok http 3030`
 3. Copy tunnel URL of ngrok: 'https://**.ngrok-free.app'
 4. Rename file `.env.example` to `.env` and past the tunnel URL as the value of `BASE_URL`.
-5.`flutter run` to run the project.
+5. `flutter run` to run the project.
