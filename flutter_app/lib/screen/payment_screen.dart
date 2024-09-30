@@ -3,7 +3,6 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:payos_demo_flutter/api/payos.dart';
-import 'package:payos_demo_flutter/main.dart';
 import 'package:payos_demo_flutter/screen/home_screen.dart';
 import 'package:payos_demo_flutter/type/create_payment_link_response.dart';
 import 'package:payos_demo_flutter/type/payment_status_response.dart';
