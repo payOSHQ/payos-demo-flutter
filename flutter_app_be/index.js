@@ -16,13 +16,14 @@ app.use('/payment', require('./controllers/payment-controller'));
 app.use('/order', require('./controllers/order-controller'));
 
 app.post('/create-payment-link', async (req, res) => {
-    const YOUR_DOMAIN = 'http://localhost:3030';
+    console.log(req)
+    const YOUR_DOMAIN = 'https://66fbc0659dee26eb1458b4a7--thriving-gecko-e6daf0.netlify.app';
     const body = {
         orderCode: Number(String(Date.now()).slice(-6)),
-        amount: 3000,
+        amount: 10000,
         description: 'Thanh toan don hang',
-        returnUrl: `${YOUR_DOMAIN}/success.html`,
-        cancelUrl: `${YOUR_DOMAIN}/cancel.html`
+        returnUrl: `${YOUR_DOMAIN}/success`,
+        cancelUrl: `${YOUR_DOMAIN}/cancel`
     };
 
     try {
